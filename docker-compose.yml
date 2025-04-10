@@ -1,4 +1,3 @@
-version: '7'
 services:
   elasticsearch:
     image: docker.elastic.co/elasticsearch/elasticsearch:7.17.10
@@ -10,3 +9,4 @@ services:
       - bootstrap.memory_lock=true
       - xpack.security.enabled=false
       - ES_JAVA_OPTS=-Xms512m -Xmx512m
+
